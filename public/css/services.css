@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    align-items: center;
+   list-style-type: none;
+}
+
+.navbar li a{
+    color: white;
+    display: block;
+    padding: 35px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.navbar li a:hover{
+    color : black;
+    text-decoration: underline;
+    /* background-color: white; */
+}
+
+.navbar::before{
+    content: "";
+    background-color:rgb(75, 73, 73);
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.3;  */
+}
+
+img{
+    margin: 30px 20px;
+    height: 50px;
+    width: 100px;
+}
+
+.home img{
+    margin: 0px;
+    height: 800px;
+    width: 100%;
+}
+
+.services{
+    background-color: lightsteelblue;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 2rem;
+    display: flex;
+    border: 2px solid smokewhite;
+}
+
+#heading{
+    margin: 10px 30px;
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.types p{
+    width: 80%;
+    margin: 20px 23px;
+    padding: 0px 0px;
+    font-size: 2.2rem;
+    font-family: 'Neucha', cursive;
+}
+
+.services img{
+    height: 500px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 23px;
+}
+
+.class{
+    width: 100%;
+}
+.class img{
+    margin: 12px 15px;
+    height: 280px;
+    width: 440px;
+}
+
+.footer{
+    display: flex;
+    font-size: 1.7rem;
+    background-color: rgb(75, 73, 73);
+}
+
+.foot{
+    width: 25%;
+    margin: 20px 45px;
+    padding: 20px;
+}
+
+.foot p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 5px 0px;
+}
+
+.foot p a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot p a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.foot1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+}
+
+.center{
+    font-size: 1.8rem;
+    text-align: center;
+}
+html{
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1.0s;
+} @keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+i{
+    padding: 4px;
+}
+
